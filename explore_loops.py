@@ -1,5 +1,5 @@
 def countdown_timer():
-    """Task 1: Countdown timer using while loop"""
+    # Task 1
     try:
         start_num = int(input("Enter the starting number: "))
         if start_num <= 0:
@@ -15,7 +15,7 @@ def countdown_timer():
         print("Please enter a valid number!")
 
 def multiplication_table():
-    """Task 2: Multiplication table using for loop"""
+    # Task 2
     try:
         num = int(input("\nEnter a number for multiplication table: "))
         if num <= 0:
@@ -29,7 +29,7 @@ def multiplication_table():
         print("Please enter a valid number!")
 
 def calculate_factorial():
-    """Task 3: Factorial calculator using for loop"""
+    # Task 3
     try:
         num = int(input("\nEnter a number to calculate factorial: "))
         if num < 0:
